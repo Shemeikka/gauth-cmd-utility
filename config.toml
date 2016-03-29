@@ -1,0 +1,19 @@
+[server]			
+	url = "http://localhost:12346"		
+	root_url = "/api/v1"		
+
+[request]
+	route = "ping"	
+	method = "POST"
+	
+	# PING
+	body = '{"ip_address": "10.12.234.139", "mac": "00:d0:69:49:6c:8d"}'	
+
+[api]
+	[api.master]	
+	id = "public_id"
+	key = "private_key"	
+
+	[api.server]	
+	id = "public_id_serv"
+	key = "private_key_serv"
