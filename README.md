@@ -1,5 +1,5 @@
 # gauth-cmd-utility
-Small command-line client for testing iLumnet API.
+Small command-line client for testing APIs.
 
     usage: cmd.exe [<flags>]
     
